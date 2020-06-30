@@ -85,6 +85,13 @@ small {
   font-size: 80%;
 }
 
+sublist {
+    nav > ul > li:hover > ul,
+    nav > ul > li > ul > li:hover > ul {
+    display: block;
+}
+}
+
 sub,
 sup {
   font-size: 75%;
